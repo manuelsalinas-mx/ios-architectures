@@ -3,8 +3,8 @@
 
 Simple **iOS Movie**s app integating **VIPER architecture**.
 
+<img width="500" alt="Screenshot 2024-01-08 at 1 27 01 PM" src="https://github.com/manuelsalinas-mx/ios-archutectures/assets/110424672/f78707d6-3b2c-40c2-b94c-ae6b4f108514">
 
-<img width="500" alt="Screenshot 2024-01-08 at 3 55 34 PM" src="https://github.com/manuelsalinas-mx/viper-ios-movies/assets/110424672/856e956c-77f5-4f2e-acb2-57c9a303ab75">
 
 ## VIPER Responsabilities
 - **View:** It's the view that user can see and interact. It contains the **Presenter**.
