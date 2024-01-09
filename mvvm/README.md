@@ -22,5 +22,7 @@ Simple **iOS Login**s app integating **MVVM architecture**.
 
 ## Demo
 
+| Info  | demo |
+| :-------- | :------- |
 | Validations | ![validations](https://github.com/manuelsalinas-mx/ios-archutectures/assets/110424672/1c0e8969-f7c2-4d7c-b17d-0f14e223f615) |
 | Success | ![login success](https://github.com/manuelsalinas-mx/ios-archutectures/assets/110424672/7e89856f-dd11-44eb-848a-bdecd08daa0e) |
