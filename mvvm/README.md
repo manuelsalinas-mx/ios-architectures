@@ -1,21 +1,23 @@
 
-# VIPER Movies
+# MVVM Login
 
-Simple **iOS Movie**s app integating **VIPER architecture**.
+Simple **iOS Login**s app integating **MVVM architecture**.
 
+<img width="441" alt="Screenshot 2024-01-09 at 9 26 06 AM" src="https://github.com/manuelsalinas-mx/ios-archutectures/assets/110424672/5b9f76c7-a946-4d18-8268-808702ce7ead">
 
-<img width="500" alt="Screenshot 2024-01-08 at 3 55 34 PM" src="https://github.com/manuelsalinas-mx/viper-ios-movies/assets/110424672/856e956c-77f5-4f2e-acb2-57c9a303ab75">
-
-## VIPER
-- **View:** It's the view that user can see and interact. It contains the **Presenter**.
-- **Interactor:** It's in charge of get the information from the datasource (HTTP request, database, local storage, etc).
-  - Implement the **_Interectable_** protocol
-- **Presenter:** Communication between **View**, **Interactor** and **Router**.
-  - Implement the **_Presentable_** protocol
-- **Entities:** All our local models parsed from datasources (HTTP request, database, etc).
-- **Router:** Receive the order from **Presenter** to navigate to other screens.
-  - Implement the **_Routing_** protocol
+![IMG_5D7FB9CF634F-1](https://github.com/manuelsalinas-mx/ios-archutectures/assets/110424672/9a069913-24b9-4522-87b2-f86220a38a8e)
 
 
-### Resources
-- **Remote API from** https://www.themoviedb.org/
+
+## MVVM Responsabilities
+- **Model:** Represents data and business logic. Get from datasource.
+- **View:** `Receive` info from _**ViewModel**_ to render the UI and `send` actions and data from user to _**ViewModel**_. 
+- **ViewModel:** Uses _**Binding**_ to communicate changes to the **View**, if the view is _listening_ those changes. Get the information from Models.
+
+## Credentials
+
+| Username  | Password |
+| :-------- | :------- |
+| `manuels@mail.com` | `123Tamarindo` |
+
+
