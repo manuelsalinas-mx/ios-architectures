@@ -21,6 +21,8 @@ Simple **iOS Movie**s app integating **VIPER architecture**.
 
 ### Resources
 - **Remote API from** https://www.themoviedb.org/
+- **Viper Template:** [VIPER Template.zip](https://github.com/manuelsalinas-mx/ios-architectures/files/13895538/VIPER.Template.zip)
+
 
 ## Demo
 
