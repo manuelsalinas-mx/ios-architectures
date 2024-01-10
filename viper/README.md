@@ -26,5 +26,12 @@ Simple **iOS Movie**s app integating **VIPER architecture**.
 
 ## Demo
 
+- **Movies**
+
 ![Viper](https://github.com/manuelsalinas-mx/ios-archutectures/assets/110424672/11588ae7-8047-441f-9b9e-701e37fd5831)
+
+--- 
+- **Navegation**
+
+![Simulator Screen Recording - iPhone 15 Pro - 2024-01-10 at 17 39 19](https://github.com/manuelsalinas-mx/ios-architectures/assets/110424672/e3961d31-2c71-4f07-89dd-6cfb917da49e)
 
