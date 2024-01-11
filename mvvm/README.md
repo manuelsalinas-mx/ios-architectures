@@ -3,9 +3,10 @@
 
 Simple **iOS Login**s app integating **MVVM architecture**.
 
-| Language | UI     |
-| :-------- | :------- |
-| Swift | `UIKit` | 
+
+| Language | UI     | Project name   |
+| :-------- | :------- | :------------------------- |
+| Swift | `UIKit`  | :------------------------- | |
 
 <img width="441" alt="Screenshot 2024-01-09 at 9 26 06 AM" src="https://github.com/manuelsalinas-mx/ios-archutectures/assets/110424672/5b9f76c7-a946-4d18-8268-808702ce7ead">
 
@@ -20,9 +21,9 @@ Simple **iOS Login**s app integating **MVVM architecture**.
 
 ## Credentials
 
-| Username  | Password |
-| :-------- | :------- |
-| `manuels@mail.com` | `123Tamarindo` |
+| Username  | Password | Project name   |
+| :-------- | :------- | :------------------------- |
+| `manuels@mail.com` | `123Tamarindo` | :------------------------- | |
 
 ## Demo
 
