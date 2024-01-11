@@ -3,6 +3,10 @@
 
 Simple **iOS Movie**s app integating **VIPER architecture**.
 
+| Language | UI     |
+| :-------- | :------- |
+| Swift | `UIKit` | 
+
 <img width="500" alt="Screenshot 2024-01-08 at 1 27 01 PM" src="https://github.com/manuelsalinas-mx/ios-archutectures/assets/110424672/f78707d6-3b2c-40c2-b94c-ae6b4f108514">
 
 <img width="500" alt="Screenshot 2024-01-09 at 2 04 10 PM" src="https://github.com/manuelsalinas-mx/ios-architectures/assets/110424672/ce587972-0e04-4354-93bb-607c83438672">
