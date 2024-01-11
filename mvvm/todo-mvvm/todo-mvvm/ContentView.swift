@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    @FocusState private var fieldFocused: Bool
     @State var descriptionNote: String = ""
     @State var notesViewModel = NoteViewModel()
 
@@ -21,6 +22,7 @@ struct ContentView: View {
                     .padding(.horizontal, 16)
 
                 TextEditor(text: $descriptionNote)
+                    .focused($fieldFocused)
                     .foregroundStyle(.gray)
                     .frame(height: 100)
                     .overlay {
@@ -30,10 +32,13 @@ struct ContentView: View {
                     .padding(.horizontal, 12)
                     .cornerRadius(3)
 
-                Button("Create") {
+                Button {
                     print("creating note...")
+                    fieldFocused = false
                     notesViewModel.saveNote(description: descriptionNote)
                     descriptionNote = ""
+                } label: {
+                    Label("Create", systemImage: "square.and.arrow.down.fill")
                 }
                 .buttonStyle(.bordered)
                 .tint(.indigo)
