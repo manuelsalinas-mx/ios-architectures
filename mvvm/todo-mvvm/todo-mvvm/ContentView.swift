@@ -9,12 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     @State var descriptionNote: String = ""
-    @StateObject var notesViewModel = NoteViewModel()
+    @State var notesViewModel = NoteViewModel()
 
     var body: some View {
         NavigationStack {
             VStack {
-                Text("Add new task")
+                Text("Write a new task")
                     .underline()
                     .foregroundStyle(.gray)
                     .padding(.horizontal, 16)

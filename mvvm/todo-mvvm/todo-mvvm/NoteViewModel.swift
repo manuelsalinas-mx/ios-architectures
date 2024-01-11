@@ -9,8 +9,9 @@ import Foundation
 import SwiftUI
 import Observation
 
-class NoteViewModel: ObservableObject {
-    @Published var notes: [NoteModel] = []
+@Observable
+class NoteViewModel {
+    var notes: [NoteModel] = []
 
     init() {
         notes = getNotes()
