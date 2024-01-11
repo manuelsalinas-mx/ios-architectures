@@ -15,8 +15,9 @@ struct ContentView: View {
         NavigationStack {
             VStack {
                 Text("Write a new task")
+                    .font(.system(size: 18, weight: .bold, design: .rounded))
                     .underline()
-                    .foregroundStyle(.gray)
+                    .foregroundStyle(.indigo)
                     .padding(.horizontal, 16)
 
                 TextEditor(text: $descriptionNote)
@@ -73,6 +74,7 @@ struct ContentView: View {
 
             }
             .navigationTitle("To-Do")
+
             .toolbar {
                 ToolbarItem {
                     Text(notesViewModel.getNumberOfNotes())
